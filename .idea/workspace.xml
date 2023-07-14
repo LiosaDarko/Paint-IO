@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ce352c9-6076-49d9-8310-835146cd23a3" name="Changes" comment="Form made">
-      <change afterPath="$PROJECT_DIR$/src/Dir.java" afterDir="false" />
+    <list default="true" id="7ce352c9-6076-49d9-8310-835146cd23a3" name="Changes" comment="Direction and Color added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -46,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689265812446</updated>
-      <workItem from="1689265813795" duration="15220000" />
+      <workItem from="1689265813795" duration="19657000" />
     </task>
     <task id="LOCAL-00001" summary="Form made">
       <created>1689269404525</created>
@@ -62,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689269467859</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Direction and Color added">
+      <created>1689326687376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689326687376</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Form made" />
-    <option name="LAST_COMMIT_MESSAGE" value="Form made" />
+    <MESSAGE value="Direction and Color added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Direction and Color added" />
   </component>
 </project>

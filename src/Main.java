@@ -6,7 +6,7 @@ import java.awt.event.*;
 
 public class Main {
        static int rowcol = 25;
-       static int size = 20;
+       static int size = 24;
        static int X = rowcol/2;
        static int Y = rowcol/2;
        static Dir dir = Dir.UNMOVED;
@@ -25,13 +25,15 @@ public class Main {
         for(int r=0; r<rowcol; r++){
             for(int c=0; c<rowcol; c++){
                 cells[r][c] = new JPanel();
-                cells[r][c].setLocation(r*size, c*size);
+                cells[r][c].setLocation(r*size+5, c*size+5);
                 cells[r][c].setSize(size, size);
                 Border bd = LineBorder.createGrayLineBorder();
                 cells[r][c].setBorder(bd);
                 Form.add(cells[r][c]);
             }
         }
+        Form.setLocationRelativeTo(null);
+        Form.setSize(rowcol*size+size+5,rowcol*size+size+25);
         Form.setVisible(true);
 
         Form.addKeyListener(new KeyListener() {
